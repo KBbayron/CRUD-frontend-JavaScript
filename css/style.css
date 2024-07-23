@@ -1,0 +1,36 @@
+.background {
+    background-color: rgb(28, 38, 49);
+    min-height: 100vh; /* Cambiado de height a min-height */
+    overflow: auto; /* Asegura que el contenido se pueda desplazar si es necesario */
+}
+
+.white-hr {
+    border: none;
+    border-top: 1px solid #ffffff;
+    margin: 20px 0;
+}
+
+.custom-table {
+    background-color: rgb(28, 38, 49)!important;
+
+    color: white!important;
+
+}
+
+.custom-table th,
+.custom-table td {
+    border: 1px solid white!important;
+
+    padding: 8px!important;
+    text-align: left!important;
+
+}
+
+.custom-table th {
+    background-color: rgb(28, 38, 49)!important;
+}
+
+.custom-table tr {
+    border-bottom: 1px solid white!important;
+
+}
